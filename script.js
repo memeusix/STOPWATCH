@@ -35,6 +35,7 @@ function reset_timer(){
     start_btn.disabled = false;
     stop_btn.disabled = false;
     timer.textContent = `00:00:00`;
+    clearInterval(audio_interval)
 }
 
 start_btn.addEventListener(`click`,start_timer);
