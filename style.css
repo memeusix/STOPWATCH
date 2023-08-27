@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.crsr{
+    position: fixed;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    z-index: 10000;
+    border-radius: 50%;
+    transition: all 0.01s linear;
+}
+
+
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(43, 74, 107);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+.welcome h1{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 4vw;
+}
+.welcome h3{
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 100;
+    letter-spacing: 3vw;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(43, 74, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.timer{
+    height: 50%;
+    width: 34%;
+    background-color: rgb(199, 207, 216);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 10px 50px 5px #00000020;
+}
+.timer_box{
+    height: 37%;
+    width: 120%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(43, 74, 107, 0.386);
+}
+.timer_display{
+    color: rgb(43, 74, 107);
+    font-size: 4vw;
+    letter-spacing: 1vw;
+}
+
+.btns{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.btns button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: rgb(43, 74, 107);
+    font-weight: 100;
+    box-shadow: 5px 5px 20px rgba(43, 74, 107, 0.386);
+    cursor: pointer;
+}
